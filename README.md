@@ -1,17 +1,17 @@
 # stable-poly
 Code from my thesis work, used to investigate stable polynomials in general and a matrix of Wanless in particular.
 
-# TESTS
+# Tests
 To test the code in a Linux environment, simply execute the script python/runtests.sh from python/.
 
-# RUN
+# Run
 To compute the coefficients of the mixed characteristic polynomial of Wanless' counterexample, execute the python script python/wanless_coefficients.py as follows:
 
 python/wanless_coefficients.py 3 4 all
 
 To verify that the smallest root of said MCP is smaller than that of the corresponding scaled associated Laguerre polynomial, run the Mathematica notebook mathematical/wanless_root_counting.nb.
 
-# REQUIREMENTS
+# Requirements
 
 Mathematica 1.1
 
